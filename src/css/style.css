@@ -8,10 +8,18 @@
 
 
 .background {
-    background-image: url(/src/img/bg-floresta.svg); /* Replace with your image path */
+    background-image: url(../img/bg-floresta.svg);
     background-size: cover;
     background-position: center;
     height: 60vh;
+}
+
+.white-card h2 {
+    font-size: 40px;
+}
+
+.white-card p {
+    font-size: 24px;
 }
 
 /* Meio */
@@ -52,3 +60,24 @@
     color: black;
     border: white 1px solid;
 }
+
+.btn-primary {
+    color: #000000 !important;
+    background-color: #FFD600;
+    border: #FFD600 1px solid;
+}
+
+.btn-primary:hover {
+    color: #000000 !important;
+    background-color: #FFDC26;
+    border: #FFDC26 1px solid;
+}
+
+.nav-link {
+    color: #575757 !important;
+}
+
+.nav-link:hover {
+    color: #323232 !important;
+}
+
